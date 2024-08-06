@@ -3,7 +3,7 @@ let
   inherit (mkKey) mkKeymap;
 in{
   plugins.copilot-lua = {
-    enable = true;
+    enable = false;
     filetypes=  {
       markdown = true;
     };
