@@ -3,9 +3,9 @@ let
   inherit (mkKey) mkKeymap;
 in{
   plugins.copilot-lua = {
-    enable = false;
+    enable = true;
     filetypes=  {
-      markdown = true;
+      "*" = false;
     };
     suggestion = {
       enabled = true;
